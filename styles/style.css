@@ -1,0 +1,146 @@
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-right: 20px;
+  }
+  /* share style */
+  .bg-color{
+      background-color: black;
+  }
+  .container{
+      max-width: 1440px;
+      margin: 0 auto; 
+     
+  }
+  .nav-item{
+     
+  }
+  .fitness{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .fitness .fit{
+    color: #ec460a;
+    font-size: 40px;
+  }
+  
+  .fitness  ul.nav-bar{
+   display: flex;
+   justify-content: flex-start !important;
+   border-radius: 50px;
+   border: 1px solid wheat;
+   padding: 5px;
+  }
+  .fitness ul.nav-bar li {
+      list-style: none;
+  }
+  .btn-primary{
+      background-color: #ec460a;
+  }
+  .fitness ul.nav-bar li a {
+   text-decoration: none;
+   color: #fff;
+   padding: 6px 12px;
+   display: block;
+   border-radius: 25px;
+   
+  }
+  .fitness ul.nav-bar li:first-child a {
+    border: 1px solid red;
+  
+  }
+  
+  /******* about section css ********/
+  .Get-body{
+      display: flex;
+      justify-content: space-between;
+  }
+  .get-h2{
+      font-size: 80px;
+      font-weight: 300;
+      color: white;
+  }
+  .get-p{
+      color: white;
+      font-size: 16px;
+  }
+  .my-custom{
+      display: flex;
+      gap: 10px;
+  }
+  .my-custom .btn-1{
+      background-color: #ec460a;
+      border: 1px solid rgba(0, 0, 0, 0.488);
+      border-radius: 50px;
+      font-size: 20px;
+      padding: 5px 15px;
+      color: white;
+  }
+  
+  .my-custom .btn-2{
+      background-color: black;
+      border: 1px solid white;
+      border-radius: 50px;
+      font-size: 20px;
+      padding: 5px 15px;
+      color: white;
+  }
+  .btn-4{
+      color: #fff;
+      background: rgb(17, 17, 17,100%);
+      padding: 20px;
+      border: 1px splid wheat;
+  }
+  
+  /******habit details*********** */
+  
+  .habit-title{
+      color: wheat;
+      text-align: center;
+      font-size: 3rem;
+      font-weight: 700;
+  }
+  .habit-details{
+      color: #fff;
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 300;
+      margin-top: -20px;
+  }
+  img.img-1 {
+      border-radius: 50%;
+  }
+  .habit-1{
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 300;
+      padding: 40px;
+      text-align: center;
+  }
+  .habit-2{
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 300;
+      padding: 40px;
+      text-align: center;
+  }
+  .habit-3{
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 300;
+      padding: 40px;
+      text-align: center;
+  }
+  .habit-4{
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 300;
+      padding: 40px;
+      text-align: center;
+  }
+  .img-description{
+      display: flex;
+  }
