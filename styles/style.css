@@ -113,29 +113,34 @@
   img.img-1 {
       border-radius: 50%;
   }
+  .about-title{
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
   .habit-1{
-      color: #fff;
+      color: rgba(255, 255, 255, 0.5);
       font-size: 1rem;
       font-weight: 300;
       padding: 40px;
       text-align: center;
   }
   .habit-2{
-      color: #fff;
+      color: rgba(255, 255, 255, 0.5);
       font-size: 1rem;
       font-weight: 300;
       padding: 40px;
       text-align: center;
   }
   .habit-3{
-      color: #fff;
+      color: rgba(255, 255, 255, 0.5);
       font-size: 1rem;
       font-weight: 300;
       padding: 40px;
       text-align: center;
   }
   .habit-4{
-      color: #fff;
+      color: rgba(255, 255, 255, 0.5);
       font-size: 1rem;
       font-weight: 300;
       padding: 40px;
@@ -144,3 +149,72 @@
   .img-description{
       display: flex;
   }
+
+/********* Run Extra**************** */
+.run-extra{
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+}
+.all-run{
+    padding: 100px;
+}
+.run-title{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.run-details{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 20px;
+}
+.btn-3{
+    width: 220px;
+    height: 42px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 1rem;
+    background: rgb(230, 83, 60);
+}
+.img-run{
+    width: 350px;
+    height: 321px;
+    margin: 100px 100px 30px 300px;
+    border-radius: 20px;
+}
+/***********run end******** */
+
+/**** bmi start ****/
+
+.bmi-about{}
+.bmi-title{
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+}
+.bmi-details{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    text-align: center;
+
+}
+.bmi-calcullator{
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 30px;
+}
+.bmi-decskasion{
+    background: rgb(34, 34, 34);
+    padding: 30px;
+}
+.table, th, td{
+    width: 300px;
+    border: 1px solid wheat;
+    color: #fff;
+    padding: 10px;
+    border-collapse: collapse;
+    padding-left: 50px;
+}
