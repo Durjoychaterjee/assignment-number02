@@ -424,15 +424,15 @@ margin-top: -20px;
     box-shadow: 3px 3px 10px #8991ab;  
     margin-left: 40%;
 }
-.lal{
+.lal {
     height: 80px;
     width: 80px;
     background-color: #ff0000;
     border-radius: 50%;
     display: inline-block;
     margin-bottom: 5px;
-    margin-top: 8px;
-    margin-left: 5px;
+    margin-top: 16px;
+    margin-left: 66px;
 }
 .name{
     color: white;
@@ -440,6 +440,7 @@ margin-top: -20px;
     position: relative;
     font-size: 20px;
     text-align: center;
+    margin-left: -50px;
 }
 /* England */
 .eng{
@@ -473,7 +474,7 @@ margin-top: -20px;
     margin-top: -92px;
     margin-left: 51px;
 }
-.japan1{
+.japan1 {
     height: 120px;
     width: 220px;
     background-color: #ffff;
@@ -482,17 +483,17 @@ margin-top: -20px;
     padding-bottom: 10px;
     box-shadow: 3px 3px 10px #8991ab;
     margin-left: 40%;
-    margin-top: 20px; 
+    margin-top: 30px;
 }
-.japan2{
+.japan2 {
     height: 80px;
     width: 80px;
     background-color: #ff0000;
     border-radius: 50%;
     display: inline-block;
     margin-bottom: 5px;
-    margin-top: 8px;
-    margin-left: 5px;
+    margin-top: 16px;
+    margin-left: 64px;
 }
 .ger{
     height: 120px;
@@ -522,4 +523,9 @@ margin-top: -20px;
 }
 .flag-header{
     text-align: center;
+}
+h2.name-d {
+    text-align: center;
+    background: #4d687a;
+    padding: 20px;
 }
