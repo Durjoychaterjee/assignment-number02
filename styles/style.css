@@ -529,3 +529,47 @@ h2.name-d {
     background: #4d687a;
     padding: 20px;
 }
+/* Responsive Media Query */
+@media screen and (max-width:576px) {
+    .img-description{
+        flex-direction: column;
+    }
+    .Get-body{
+        width: 500px;
+        flex-direction: column;
+        padding: 50px;
+        margin-left: 100px;
+    }
+    .run-extra{
+        width: 400px;
+        flex-direction: column;
+        padding: 50px;
+        margin-left: 100px;
+    }
+    .img-run{
+        flex-direction: column;
+    }
+    .habit-title{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        font-size: 24px;
+    }
+    .habit-details{
+        font-size: 10px;
+        font-weight: 300;
+        width: 400px;
+        margin-left: 30px;
+    }
+    .meet-our-team-traner{
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;
+    }
+    .all-fitness{
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;
+    }
+    .all-bmi{
+            flex-direction: column;
+
+    }
+}
